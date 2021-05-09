@@ -9,4 +9,4 @@ COPY hasher.rb /app
 
 #CMD ruby hasher.rb
 ENTRYPOINT ["ruby"]
-CMD hasher.rb
+CMD ["hasher.rb"]
