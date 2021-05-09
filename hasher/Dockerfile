@@ -2,7 +2,7 @@ FROM ruby:alpine
 
 RUN apk add build-base
 RUN gem install sinatra
-RUN get install thin
+RUN gem install thin
 
 WORKDIR /app
 COPY hasher.rb /app
